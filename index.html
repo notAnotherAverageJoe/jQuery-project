@@ -72,7 +72,34 @@
     </div>
   </div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+  $(document).ready(function(){
+    console.log("Let's get ready to party with jQuery!");
+
+    $("article img").addClass("image-center");
+
+    $("article p:last-child").remove();
+
+    $("#title").css("font-size", Math.random() * 100);
+    //$("ol").append("<li>Brand new list item</l1>")
+    $("aside").empty().append($("<p>", {text: "sorry about that silly list"}))
+      $("input[type=number]").on("input", function(){
+        let red = $("input:eq(0)").val();
+        let blue = $("input:eq(1)").val();
+        let green = $("input:eq(2)").val();
+        $("body").css("background-color", "rgb(" + red + "," + green + "," + blue + ")");
+       
+      });
+      })
+      $("article img").on("click", function() {
+      $(this).remove();
+    });
+  
+
+</script>
+
 
 
 

@@ -1,6 +1,8 @@
-$(document).ready(function(){
-    console.log("Let's get ready to party with jQuery!")
-})
-$("article img").addClass("image-center");
+// $(document).ready(function(){
+//     console.log("Let's get ready to party with jQuery!")
+// })
+// $("article img").addClass("image-center");
 
-$("article P:last-child").remove();
+// $("article P:last-child").remove();
+
+// ("#title").css("font-size", Math.random() * 100);
